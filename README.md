@@ -1,7 +1,8 @@
 # DAA
- Design and Architecture Algorithme
 
- ```c
+Design and Architecture Algorithme
+
+```c
 int n, k;
 int* x;
 for (int i = 0; i < n; i++) {
@@ -11,5 +12,4 @@ for (int i = 0; i < n; i++) {
         write(x, 1, n);
     else
         nqueens(k + 1, n);
-}
 ```
